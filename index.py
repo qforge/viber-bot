@@ -17,7 +17,7 @@ viber = Api(BotConfiguration(
     avatar='https://www.skyvision.bg/wp-content/uploads/logo.png',
     auth_token='4d71d0f8d1a7d1f0-86b0042a4cc90e24-af65e447187ce9e1'
 ))
-viber.set_webhook('https://https://predict-viber-bot.herokuapp.com:443/')
+viber.set_webhook('https://predict-viber-bot.herokuapp.com:443/')
 
 @app.route('/', methods=['POST'])
 def incoming():
