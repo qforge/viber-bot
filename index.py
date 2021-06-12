@@ -15,7 +15,7 @@ app = Flask(__name__)
 viber = Api(BotConfiguration(
     name='predictBot',
     avatar='https://www.skyvision.bg/wp-content/uploads/logo.png',
-    auth_token='4d71d0f8d1a7d1f0-86b0042a4cc90e24-af65e447187ce9e1'
+    auth_token='4d806f3abea7dd6a-dc7c7d9a74275359-f55681c8e9e2d240'
 ))
 viber.set_webhook('https://predict-viber-bot.herokuapp.com:443/')
 
